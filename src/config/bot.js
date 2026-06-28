@@ -24,9 +24,9 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Overseeing discord.gg/echo",
         // Activity type number (0 = Playing).
-        type: 0,
+        type: 3,
       },
     ],
   },
@@ -91,7 +91,7 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699",
+      primary: "#000000",
       secondary: "#2F3136",
 
       // Standard status colors for success/error/warning/info messages.
@@ -176,8 +176,8 @@ export const botConfig = {
     dailyAmount: 100,
 
     // Work command random payout range.
-    workMin: 10,
-    workMax: 100,
+    workMin: 50,
+    workMax: 1000,
 
     // Beg command random payout range.
     begMin: 5,
